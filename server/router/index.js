@@ -17,7 +17,7 @@ const urlencodedParser = bodyParser.urlencoded({extended: false});
 
 let icon, robot;
 
-router.get('/favicon.ico', (req, res, next) => {
+/* router.get('/favicon.ico', (req, res, next) => {
   if (!icon) icon = fs.readFileSync(process.cwd() + '/server/static/favicon.ico');
   res.type('image/x-icon');
   res.send(icon);
@@ -27,7 +27,7 @@ router.get('/robot.txt', (req, res, next) => {
   if (!robot) robot = fs.readFileSync(process.cwd() + '/server/static/robots.txt');
   res.type('text/plain');
   res.send(robot);
-});
+}); */
 
 router.get(`/`, pageController);
 router.post(`/mail`, jsonParser, urlencodedParser, mailController);

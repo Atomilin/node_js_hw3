@@ -5,7 +5,7 @@ const db = require('../store')();
 
 const controller = (req, res, next) => {
   let form = new formidable.IncomingForm();
-  let upload = path.join('./static', 'img', 'products');
+  let upload = path.join('assets','img', 'products');
   let fileName;
 
   form.uploadDir = path.join(process.cwd(), 'server', upload);
