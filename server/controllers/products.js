@@ -8,7 +8,9 @@ const controller = (req, res, next) => {
   let upload = path.join('assets','img', 'products');
   let fileName;
 
-  form.uploadDir = path.join(process.cwd(), 'server', upload);
+  //form.uploadDir = path.join(process.cwd(), '..', 'public', upload);
+  form.uploadDir = (path.join(__dirname, '..', 'public'));
+ 
 
   form.parse(req, function (err, fields, files) {
     if (err) {

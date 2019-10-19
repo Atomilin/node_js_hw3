@@ -2,46 +2,46 @@
     {
       "name": "Вино вдохновение",
       "price": 600,
-      "src": "Work1.jpg"
+      "src": "/img/products/Work1.jpg"
     },
     {
       "name": "Вино вдохновение",
       "price": 600,
-      "src": "Work2.jpg"
+      "src": "/img/products/Work2.jpg"
     },
     {
       "name": "Вино вдохновение",
       "price": 600,
-      "src": "Work3.jpg"
+      "src": "/img/products/Work3.jpg"
     },
     {
       "name": "Вино вдохновение",
       "price": 600,
-      "src": "Work4.jpg"
+      "src": "/img/products/Work4.jpg"
     },
     {
       "name": "Вино вдохновение",
       "price": 600,
-      "src": "Work5.jpg"
+      "src": "/img/products/Work5.jpg"
     },
     {
       "name": "Вино вдохновение",
       "price": 600,
-      "src": "Work6.jpg"
+      "src": "/img/products/Work6.jpg"
     },
     {
       "name": "Вино вдохновение",
       "price": 600,
-      "src": "Work7.jpg"
+      "src": "/img/products/Work7.jpg"
     },
     {
       "name": "Вино вдохновение",
       "price": 600,
-      "src": "Work8.jpg"
+      "src": "/img/products/Work8.jpg"
     },
     {
       "name": "Вино вдохновение",
       "price": 600,
-      "src": "Work9.jpg"
+      "src": "/img/products/Work9.jpg"
     }
   ]

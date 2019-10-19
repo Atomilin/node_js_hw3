@@ -32,7 +32,7 @@ app.use((req, res, next) => {
   next();
 });
 
-app.use(express.static('../public'));
+app.use(express.static(path.join(__dirname, '..', 'public')));
 
 app.set('views', 'source/template/pages');
 app.set('view engine', 'pug');
