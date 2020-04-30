@@ -42,7 +42,7 @@
     "express": "^4.17.1",
     "express-session": "^1.16.2",
     "formidable": "^1.2.1",
-    "jquery": "^3.3.1",
+    "jquery": "^3.5.0",
     "nconf": "^0.10.0",
     "nodemailer": "^6.3.0",
     "normalize.css": "^7.0.0",
